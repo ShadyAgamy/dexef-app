@@ -1,0 +1,25 @@
+.news_card {
+    margin-bottom: 14rem;
+    cursor: pointer;
+    &:hover {
+        .card-img-top {
+            transform: scale(1.1);
+        }
+    }
+
+    .card_title {
+        font-size: 15px;
+        min-height: 3rem;
+       
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .text-muted {
+        font-size: 12px;
+    }
+}

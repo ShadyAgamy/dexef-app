@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { Router, Route, Switch } from "react-router-dom";
 
-function App() {
+import history from "./History";
+import Home from "./pages/homePage";
+import ShowAll from "./pages/showAll";
+import SingleNews from "./pages/singleNews";
+import CallAPI from "./pages/callAPI";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router history={history} basename="/">
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/showall" exact component={ShowAll}></Route>
+          <Route path="/newsSingle" exact component={SingleNews}></Route>
+          <Route path="/callAPI" exact component={CallAPI}></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
-
-export default App;

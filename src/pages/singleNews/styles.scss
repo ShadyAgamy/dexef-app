@@ -1,0 +1,39 @@
+.newsSingle {
+    margin-top: 6rem;
+    justify-content: center;
+    min-height: 28rem;
+    
+
+    .news_card {
+        margin-bottom: 14rem;
+        &:hover {
+            cursor: default;
+            img {
+                transform: scale(1);
+            }
+        }
+
+        .card-img-top {
+            height: 22rem;
+        }
+
+        .card_title {
+            color: #13A4EC;
+            text-transform: uppercase;
+            font-size: 1.7rem;
+            font-weight: 400;
+            min-height: unset;
+        }
+
+        .text-muted {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 16px;
+            margin-top: 1rem;
+        }
+    }
+    
+}

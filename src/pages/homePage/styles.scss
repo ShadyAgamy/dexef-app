@@ -1,0 +1,49 @@
+.afterNav {
+    margin-top: 4rem;
+}
+
+.banner {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        font-weight: 500;
+        margin-bottom: 3rem;
+        margin-top: -1rem;
+        font-size: 3.7rem;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+}
+
+.news-list-container {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+    .news_card {
+        margin-bottom: 4rem;
+    }
+
+    .container-fluid > .row {
+        margin-bottom: 8rem;
+       
+    }
+}
+
+.recently_aded {
+    p {
+        font-weight: bold;
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    button {
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+}

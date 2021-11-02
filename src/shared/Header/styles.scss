@@ -1,0 +1,46 @@
+.navbar.mainNav {
+    background-color: #6B84FF!important;
+    padding: 0;
+
+    .btn {
+        background-color: #4752B5;
+        color: white;
+        font-size: 11px;
+        padding: 0px 8px;
+        height: 34px;
+        font-weight: 500;
+        margin-right: 10px;
+        text-transform: uppercase;
+
+    }
+}
+
+.navbar-expand .navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    background: #4752B5;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-left: -1rem;
+    color: white!important;
+    clip-path: polygon(0 0, 100% 0%, 80% 99%, 0% 100%);
+    padding-right: 2rem;
+
+}
+
+
+.nav-link {
+    i {
+        color: white;
+    }
+}
